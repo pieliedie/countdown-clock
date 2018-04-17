@@ -1,0 +1,26 @@
+.clock {
+    font-size: 7em;
+}
+
+.clock-label {
+    font-size: 20px;
+}
+
+.main {
+    height: 600px;
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0)), url('./image.jpg');
+    background-position: 30% 25%;
+    color: white;
+    padding-top: 50px;
+    position: relative;
+}
+
+.notification {
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0.3;
+    }
+  }
