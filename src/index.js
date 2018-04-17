@@ -6,4 +6,4 @@ import registerServiceWorker from './registerServiceWorker';
 import {CountdownClock} from './CountdownClock';
 
 ReactDOM.render(<CountdownClock deadlineTime = "Apr 30, 2018 16:50:25"/>, document.getElementById('root'));
-                            registerServiceWorker();
+registerServiceWorker();
